@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wenky Restaurant</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Make a reservation at Wenky Restaurant for an unforgettable dining experience.">
+    <meta name="keywords" content="restaurant, reservation, Kuala Lumpur, dining, feedback">
+    <link rel="stylesheet" type="text/css" href="assignment.css">
+</head>
+
+<body>
+    <header><h1>Wenky Restaurant</h1></header>
+    <nav>
+        <a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;
+        <a href="menu.html">Menu</a>&nbsp;&nbsp;&nbsp;
+        <a href="reservation.html">Reservation</a>&nbsp;&nbsp;&nbsp;
+        <a href="feedback.html">Feedback</a>&nbsp;&nbsp;&nbsp;
+        <a href="contact.html">Contact Us</a>&nbsp;&nbsp;&nbsp;
+    </nav>
+    <main>
+        <div id="reservation">
+        <section id="reservation">
+        <h2>For reservation</h2>
+        <ul>
+        <li>Our restaurant is now accept reservations for the following month from 10am on the first business day of each month.</li>
+        <li>If the reservation start date changes, we will notify you on our website and also your email.</li>
+        <li>For parties of 7 people or more, your reservation will be confirmed once we have received the full course fee for the number of people.</li>
+        <li>Smoking is prohibited inside the store, including the entrance. Pleasa follow our restaurant rules.</li>
+        <li>You are reminded that there are no smoking areas outside the store as it is a public open space.</li>
+        <li>We have a celebratory plate available to accompany your dessert. Please request this when making your reservation.</li>
+        <li>You can make your reservation online with submit your name and email through the column prepare.</li>
+        </ul>
+        <br>
+        <form action="mailto:fungwy-wp24@student.tarc.edu.my" method="post" enctype="text/plain">
+            <fieldset>
+                <h3>Reservation Information</h3>
+                <label for="myName">
+                    <span class="required">*</span> Name:
+                </label>
+                <input type="text" id="myName" name="myName" required placeholder="Enter yout name">
+                <label for="myEmail">
+                    <span class="required">*</span> Email:
+                </label>
+                <input type="email" id="myEmail" name="myEmail" required placeholder="Enter your email">
+                <label for="datetime">
+                    <span class="required">*</span> Date and Time:
+                </label>
+                <input type="datetime-local" id="datetime" name="datetime" required>
+                <input type="submit" value="Apply Now">
+            </fieldset>
+        </form>
+        </section>
+
+        <h3>Cancellation policy</h3>
+        <p>If you wish to change the number of people in your reservation or cancel, please do it at least six days in advance through the 
+        reservation site you used.</p><br>
+        The cancellation fees are as follows:<br>
+        <li>5 days ago・50%</li>
+        <li>2 days ago・100%</li><br>
+        We appreciate your understanding.<br>   
+        <br> 
+        <h2>Schedule</h2>
+        <span style="color: red;">*
+        We are accepting reservations up until November and December 2024.
+        Reservations for January will be accepted on from 10:00 a.m. on December 1st.
+        </span>
+        <div class="image-container">
+            <img src="../Assignment/time table 1.webp" alt="Restaurant reservation time table 1">
+            <img src="../Assignment/time table 2.webp" alt="Restaurant reservation time table 2">
+        </div>
+        <br>
+        <h2>Access</h2>
+        <h3>Address</h3>
+        <li>Jalan Danau Saujana, Kuala Lumpur, Malaysia.</li>
+        <br>
+        <h3>Opening Times</h3>
+        <ul>
+            <li><span style="color: red;">Lunch 12:00 ~ 12:30 [Closes at 14:30]</span></li>
+            <li><span style="color: red;">Dinner 17:30 ~ 18:00 [Closes at 20:00]</span></li>
+        </ul>
+        <h3>Closed Wednesdays</h3>
+        <span style="color: red;">
+            <h3><li>There may be irregular holidays. Please refer to the calendar for details.</li></h3>
+        </span>
+        </div>
+        <br>
+    </main>
+    <br>
+    <footer>
+        Copyright &copy; 2024 Wenky Restaurant
+        <p><a href="mailto:wenkyrestaurant@services.com">wenkyrestaurant@services.com</a></p><br>
+    </footer>
+</body>
+</html>
